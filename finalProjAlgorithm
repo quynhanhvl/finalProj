@@ -1,0 +1,68 @@
+Objective: The objective of this program is to calculate the exam grade student needs for the grade they want.
+
+Algorithm:
+    - introduce people to the calculator 
+    - ask for current grade 
+    - asked for desired grade
+    - ask for what the final is worth
+    - take the final weight and subtract 100
+    - take current grade and multiply by (100 - final weight)
+    - take goal and subtract (current(100- final weight))
+    - divide by final weight
+    - state course and grade needed
+    - give a short message
+
+Pseudocode:
+# print statement welcoming users
+# state purpose of program
+# state how to start program
+
+
+    # if userChoice="s"
+    # contCalculating is true
+    # start while loop for when contCalculating is true
+
+    # course = input(ask for course)
+    # goal = int(input(ask for goal))
+    # current = int(input(ask for current grade))
+    # weight = int(input(ask for the final exam weight))
+    
+    #def a function called gradeNeeded()
+        # val1 = 1-weight
+        # val2 = current*val1
+        # val3 = goal-val2
+        # val4 = val3/weight
+        #return calculation 
+    #result = calls the function
+    #print(course) to let user know which course
+    #print(result)
+        
+    #if (result is less than 30):
+            #print("provide message")
+        #elif (result is less than 70):
+            print("message")
+        #elif (result result is less than 80):
+            print("message")
+        #elif (result result is less than 100):
+            print("message")
+        #else:
+            print("message")
+        
+    #ask if user wants to continue
+    
+    #if user does not want to continue
+        #print statement thanking user
+        #break loop
+    
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
